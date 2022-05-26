@@ -60,7 +60,7 @@ txtAssunto.style.color = "black"
 txtAssunto.style.display = "block"
 }
 else{
-    txtAssunto.style.display = "nome"
+    txtAssunto.style.display = "none"
     assuntoOK = true
 }
 }
@@ -79,6 +79,6 @@ function mapaZoom() {
     mapa.style.heigth = '600px'
 }
 function mapaNormal() {
-    mapa.style.width = '550px'
+    mapa.style.width = '400px'
     mapa.style.heigth = '250px'
 }
